@@ -5,25 +5,25 @@
     align-items: center;
 }
 
-.sujetador {
+.bra-black {
     background-color: black;
     width: 20px;
     height: 100px;
 }
 
-.caja-semaforo {
+.box-traffic-light {
     background-color: black;
     width: 100px;
-    height: 250px;
+    height: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 10px 0px;
 }
 
-.circulo-rojo {
+.circle-red {
     background-color: red;
     width: 75px;
     height: 75px;
@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.circulo-amarillo {
+.circle-yellow {
     background-color: yellow;
     width: 75px;
     height: 75px;
@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 
-.circulo-verde {
+.circle-green {
     background-color: green;
     width: 75px;
     height: 75px;
@@ -47,8 +47,14 @@
     cursor: pointer;
 }
 
+.circle-purple {
+    background-color: purple;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .alumbrado {
-    box-shadow: 2px 3px 124px 9px rgba(244, 255, 11, 0.75);
-    -webkit-box-shadow: 2px 3px 124px 9px rgba(244, 255, 11, 0.75);
-    -moz-box-shadow: 2px 3px 124px 9px rgba(244, 255, 11, 0.75);
+    box-shadow: 0px -1px 104px 42px rgba(215,229,8,0.75);
 }
